@@ -173,7 +173,7 @@
           text-transform: uppercase;
 
           &::before {
-            content: url('./icons/check.svg');
+            content: var(--check);
             line-height: 0;
           }
         }
